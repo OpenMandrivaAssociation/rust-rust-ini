@@ -13,6 +13,7 @@ Summary:        Ini configuration file parsing library in Rust
 License:        MIT
 URL:            https://crates.io/crates/rust-ini
 Source:         %{crates_source}
+Patch0:		rust-ini-0.17.0-ordered-multimap-0.4.patch
 
 ExclusiveArch:  %{rust_arches}
 %if %{__cargo_skip_build}

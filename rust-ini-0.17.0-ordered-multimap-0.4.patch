@@ -1,0 +1,12 @@
+diff -up rust-ini-0.17.0/Cargo.toml.omv~ rust-ini-0.17.0/Cargo.toml
+--- rust-ini-0.17.0/Cargo.toml.omv~	2022-01-27 12:16:32.539124315 +0100
++++ rust-ini-0.17.0/Cargo.toml	2022-01-27 12:16:38.233212595 +0100
+@@ -28,7 +28,7 @@ test = true
+ version = "1.0"
+ 
+ [dependencies.ordered-multimap]
+-version = "0.3"
++version = "0.4"
+ 
+ [dependencies.unicase]
+ version = "2.6"
