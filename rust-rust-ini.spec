@@ -5,8 +5,8 @@
 %global crate rust-ini
 
 Name:           rust-%{crate}
-Version:        0.13.0
-Release:        6%{?dist}
+Version:        0.17.0
+Release:        1
 Summary:        Ini configuration file parsing library in Rust
 
 # Upstream license specification: MIT
@@ -69,34 +69,3 @@ which use "default" feature of "%{crate}" crate.
 %check
 %cargo_test
 %endif
-
-%changelog
-* Thu Jan 30 2020 Fedora Release Engineering <releng@fedoraproject.org> - 0.13.0-6
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
-
-* Fri Jul 26 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.13.0-5
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_31_Mass_Rebuild
-
-* Mon Jul 22 21:33:01 CEST 2019 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.13.0-4
-- Regenerate
-
-* Sat Feb 02 2019 Fedora Release Engineering <releng@fedoraproject.org> - 0.13.0-3
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
-
-* Tue Nov 13 2018 Josh Stone <jistone@redhat.com> - 0.13.0-2
-- Adapt to new packaging
-
-* Sun Oct 07 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.13.0-1
-- Update to 0.13.0
-
-* Sun Oct 07 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.12.2-3
-- Run tests in infrastructure
-
-* Sat Jul 14 2018 Fedora Release Engineering <releng@fedoraproject.org> - 0.12.2-2
-- Rebuilt for https://fedoraproject.org/wiki/Fedora_29_Mass_Rebuild
-
-* Tue Jul 10 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.12.2-1
-- Update to 0.12.2
-
-* Fri Jul 06 2018 Igor Gnatenko <ignatenkobrain@fedoraproject.org> - 0.12.1-1
-- Initial package
