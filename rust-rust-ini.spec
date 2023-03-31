@@ -6,7 +6,7 @@
 
 Name:           rust-%{crate}
 Version:        0.17.0
-Release:        1
+Release:        2
 Summary:        Ini configuration file parsing library in Rust
 
 # Upstream license specification: MIT
